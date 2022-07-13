@@ -39,3 +39,8 @@ services:
       - db
       - redis
       - app
+  ng:
+    container_name: ng
+    build: angular
+    ports:
+      - "8080:80"
