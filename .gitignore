@@ -3,7 +3,7 @@ __pycache__/
 .cache/
 tmp/
 .pytest_cache/
-
+*.pyc
 .python-version
 .env
 .env.local
