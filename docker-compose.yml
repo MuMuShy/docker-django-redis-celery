@@ -44,3 +44,4 @@ services:
     build: angular
     ports:
       - "8080:80"
+      - "49153:49153"

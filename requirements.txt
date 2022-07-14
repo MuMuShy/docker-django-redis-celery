@@ -4,3 +4,8 @@ redis==3.4.1
 psycopg2-binary == 2.9.3 
 psycopg2 == 2.8.4
 djangorestframework == 3.13.1
+django-cors-headers==3.13.0
+djangorestframework-jwt
+cryptography
+python-jose
+six ==1.16.0

@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { TaskListComponent } from './task-list/task-list.component';
 import { HttpClientModule} from '@angular/common/http'
 
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 const routes: Routes = []
 @NgModule({
   declarations: [
@@ -14,7 +15,9 @@ const routes: Routes = []
   imports: [
     BrowserModule, 
     RouterModule.forRoot(routes),
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
