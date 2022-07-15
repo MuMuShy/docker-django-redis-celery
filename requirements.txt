@@ -9,3 +9,4 @@ djangorestframework-jwt
 cryptography
 python-jose
 six ==1.16.0
+line-bot-sdk==1.19.0

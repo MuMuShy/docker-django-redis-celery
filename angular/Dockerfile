@@ -11,6 +11,7 @@ COPY . /app
 
 RUN npm run build --prefix angular-app -- --output-path=./dist/out
 
+EXPOSE 4200 49153
 
 FROM nginx:1.23.0-alpine
 
